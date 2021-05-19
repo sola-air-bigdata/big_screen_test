@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubboTest" />
+        <module name="Big_Screen_Analyze" />
+        <module name="flume-ng-elasticsearch-sink" />
+        <module name="canal.common" />
+        <module name="FlinkTest" />
+        <module name="flume-filter" />
+        <module name="NcServer" />
+        <module name="NcDataS" />
+        <module name="mySource" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Big_Screen_Analyze" target="1.8" />
+      <module name="canal.client-adapter" target="1.8" />
+      <module name="canal.common" target="1.7" />
+      <module name="client-adapter.common" target="1.8" />
+      <module name="client-adapter.elasticsearch" target="1.8" />
+      <module name="client-adapter.hbase" target="1.8" />
+      <module name="client-adapter.launcher" target="1.8" />
+      <module name="client-adapter.logger" target="1.8" />
+      <module name="client-adapter.rdb" target="1.8" />
+      <module name="dubboTest" target="1.8" />
+      <module name="FlinkTest" target="1.5" />
+      <module name="flume-filter" target="1.8" />
+      <module name="flume-ng-elasticsearch-sink" target="1.8" />
+      <module name="HadoopIntellijPlugin" target="1.8" />
+      <module name="mySource" target="1.8" />
+      <module name="NcDataS" target="1.8" />
+      <module name="NcServer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HadoopIntellijPlugin" options="-extdirs /home/hadoopuser/SoftwareDir/idea-IU-171.3780.95/lib" />
+      <module name="NcDataS" options="-parameters" />
+      <module name="dubboTest" options="-parameters" />
+    </option>
+  </component>
+</project>

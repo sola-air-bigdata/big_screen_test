@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../dubboTest" />
+    <file type="web" url="file://$PROJECT_DIR$/../NcDataS" />
+    <file type="web" url="file://$PROJECT_DIR$/../NcServer-8637" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="D:/worksp/FlinkTest/pom.xml" />
+        <option value="D:/flume/flume-ng-elasticsearch-sink/pom.xml" />
+        <option value="D:/flume/mySource/pom.xml" />
+        <option value="$PROJECT_DIR$/../dubboTest/pom.xml" />
+        <option value="$PROJECT_DIR$/../NcDataS/pom.xml" />
+        <option value="$PROJECT_DIR$/../NcServer-8637/pom.xml" />
+        <option value="D:/flume/flume-filter/pom.xml" />
+        <option value="D:/workss/canal-canal-1.1.3/common/pom.xml" />
+        <option value="D:/workss/canal-canal-1.1.3/client-adapter/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="D:/workss/canal-canal-1.1.3/client-adapter/common/pom.xml" />
+        <option value="D:/workss/canal-canal-1.1.3/client-adapter/elasticsearch/pom.xml" />
+        <option value="D:/workss/canal-canal-1.1.3/client-adapter/hbase/pom.xml" />
+        <option value="D:/workss/canal-canal-1.1.3/client-adapter/launcher/pom.xml" />
+        <option value="D:/workss/canal-canal-1.1.3/client-adapter/logger/pom.xml" />
+        <option value="D:/workss/canal-canal-1.1.3/client-adapter/rdb/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

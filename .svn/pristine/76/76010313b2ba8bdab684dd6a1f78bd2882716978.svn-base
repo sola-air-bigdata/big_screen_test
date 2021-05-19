@@ -1,0 +1,31 @@
+#kafka latest earliest
+bootstrap_servers=47.112.216.153:9088
+auto_offset_reset=earliest
+group_id=spark_analyze_test
+topic = topic-analyze
+
+#zookeeper
+zkUrl=47.112.216.153:2181
+sessionTimeout=30000
+connectionTimeout=30000
+
+#spark local[6] spark://47.112.216.153:7077
+master=spark://47.112.216.153:7077
+appname=analyze_bill
+checkpointDir=/sparkDir/
+streamingtime=5
+
+#redis
+redisip=47.112.216.153
+redisport=6379
+redispd=richcomm2016
+keytimeout = 10800
+maxTotal = 1000
+maxIdle = 50
+maxWaitMillis = 5000
+sentinel1 = 192.168.187.161:26379
+sentinel2 = 192.168.187.161:26380
+sentinel3 = 192.168.187.161:26381
+#
+esTime=2020-01-15 15:01:07
+anyTime=2020-01-15 15:35:07

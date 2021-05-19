@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NcServer:war">
+    <output-path>$PROJECT_DIR$/../NcServer-8637/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>NcServer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="server-1.0.war">
+      <element id="artifact" artifact-name="NcServer:war exploded" />
+    </root>
+  </artifact>
+</component>

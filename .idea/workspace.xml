@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="NcDataS:war" />
+      <artifact name="NcDataS:war exploded" />
+      <artifact name="NcServer:war" />
+      <artifact name="NcServer:war exploded" />
+      <artifact name="dubboTest:war" />
+      <artifact name="dubboTest:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f94aa617-91cf-435b-9eff-2696d4e88552" name="Default Changelist" comment="LQJ">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bill_druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/member_druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/util/BillDruidUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/util/MemberDruidUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/driver.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/driver.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/DataUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/DataUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/Driver.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/Driver.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/analyze_bill/StationShowDayTableUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/analyze_bill/StationShowDayTableUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/AppointmentChargeFormInsert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/AppointmentChargeFormInsert.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/AppointmentChargeFormUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/AppointmentChargeFormUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationBillAnalyzeInsert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationBillAnalyzeInsert.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationBillAnalyzeUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationBillAnalyzeUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationGunInsert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationGunInsert.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationGunUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationGunUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileAlarmHisInsert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileAlarmHisInsert.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileAlarmHisUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileAlarmHisUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileBillBandInsert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileBillBandInsert.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileBillBandUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileBillBandUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileDelete.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileDelete.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileInsert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileInsert.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileTypeUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileTypeUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationPileUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationStationInsert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationStationInsert.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationStationUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationStationUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationlVehicleInsert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationlVehicleInsert.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationlVehicleUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationlVehicleUpdate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/PersionalMemberInsert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/PersionalMemberInsert.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/PersionalMemberUpdate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/PersionalMemberUpdate.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="E:\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../flume" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="FelixLQJ" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="myWorkSpace" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\MyMaven" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Program Files/apache-maven-3.8.1" />
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1TlpfmGiFEXQx4z5RUVlcx7MfZt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="hive&#10;redshift&#10;mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../screen/screen" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="库" />
+    <property name="project.structure.proportion" value="0.24875" />
+    <property name="project.structure.side.proportion" value="0.32899868" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="screen_analyze.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\Big_Screen_Analyze\src\main\resources" />
+      <recent name="D:\workspace\Big_Screen_Analyze\src\main\scala\screen_analyze\util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.Driver">
+    <configuration name="ClassDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="screen_analyze.service.analyze_bill.ClassDemo" />
+      <module name="Big_Screen_Analyze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="screen_analyze.service.analyze_bill.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="screen_analyze.Driver" />
+      <module name="Big_Screen_Analyze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="screen_analyze.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Driver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\sola\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="runUnderTerminal" value="true" />
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\凝智\大数据\代码\Big_Screen_Analyze" />
+          <option name="myCopyRoot" value="C:\凝智\大数据\代码\Big_Screen_Analyze" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\凝智\大数据\代码\Big_Screen_Analyze" />
+          <option name="myCopyRoot" value="C:\凝智\大数据\代码\Big_Screen_Analyze" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f94aa617-91cf-435b-9eff-2696d4e88552" name="Default Changelist" comment="" />
+      <created>1574044641183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574044641183</updated>
+      <workItem from="1574044647265" duration="11248000" />
+      <workItem from="1574058666241" duration="2479000" />
+      <workItem from="1574061180423" duration="970000" />
+      <workItem from="1574062195025" duration="5628000" />
+      <workItem from="1574069667827" duration="400000" />
+      <workItem from="1574070092936" duration="1005000" />
+      <workItem from="1574149667299" duration="40000" />
+      <workItem from="1590571500802" duration="465000" />
+      <workItem from="1590571977526" duration="1259000" />
+      <workItem from="1590631109877" duration="8388000" />
+      <workItem from="1590722273338" duration="4195000" />
+      <workItem from="1590737987303" duration="5000" />
+      <workItem from="1590738410857" duration="5000" />
+      <workItem from="1590991281731" duration="6903000" />
+      <workItem from="1591059747709" duration="4036000" />
+      <workItem from="1591261364211" duration="631000" />
+      <workItem from="1591318876007" duration="6202000" />
+      <workItem from="1591337764204" duration="8569000" />
+      <workItem from="1591578270752" duration="13193000" />
+      <workItem from="1591664171276" duration="564000" />
+      <workItem from="1591664795379" duration="2332000" />
+      <workItem from="1591668374932" duration="12317000" />
+      <workItem from="1591759864776" duration="8886000" />
+      <workItem from="1591837010798" duration="449000" />
+      <workItem from="1592534367789" duration="783000" />
+      <workItem from="1592535528082" duration="11134000" />
+      <workItem from="1592803741547" duration="2590000" />
+      <workItem from="1604368658108" duration="1913000" />
+      <workItem from="1604391242076" duration="607000" />
+      <workItem from="1604626926884" duration="8355000" />
+      <workItem from="1604890396904" duration="1910000" />
+      <workItem from="1605505409976" duration="974000" />
+      <workItem from="1605585114986" duration="7469000" />
+      <workItem from="1605667492520" duration="3268000" />
+      <workItem from="1606180842155" duration="15714000" />
+      <workItem from="1606353362920" duration="11896000" />
+      <workItem from="1606890886455" duration="42907000" />
+      <workItem from="1607302830157" duration="20493000" />
+      <workItem from="1607329953364" duration="4405000" />
+      <workItem from="1607390650494" duration="27660000" />
+      <workItem from="1607491209328" duration="15240000" />
+      <workItem from="1607562576325" duration="19441000" />
+      <workItem from="1607649425554" duration="20643000" />
+      <workItem from="1607907761700" duration="1277000" />
+      <workItem from="1607909993199" duration="1940000" />
+      <workItem from="1609831118547" duration="7285000" />
+      <workItem from="1610071829244" duration="2795000" />
+      <workItem from="1614820274297" duration="4605000" />
+      <workItem from="1615252383425" duration="4119000" />
+      <workItem from="1615510970645" duration="3254000" />
+      <workItem from="1615769998104" duration="8249000" />
+      <workItem from="1616374968813" duration="4597000" />
+      <workItem from="1618470094127" duration="3986000" />
+      <workItem from="1618793931124" duration="25147000" />
+      <workItem from="1619140516768" duration="30866000" />
+      <workItem from="1619500176068" duration="4765000" />
+      <workItem from="1619515371494" duration="594000" />
+      <workItem from="1619572484727" duration="54364000" />
+      <workItem from="1621300177599" duration="158000" />
+      <workItem from="1621300361094" duration="626000" />
+      <workItem from="1621301018910" duration="618000" />
+      <workItem from="1621385996378" duration="4025000" />
+    </task>
+    <task id="LOCAL-00001" summary="LQJ">
+      <created>1574059693328</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574059693328</updated>
+    </task>
+    <task id="LOCAL-00002" summary="LQJ">
+      <created>1574059809991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574059809991</updated>
+    </task>
+    <task id="LOCAL-00003" summary="LQJ">
+      <created>1574060069726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574060069726</updated>
+    </task>
+    <task id="LOCAL-00004" summary="LQJ">
+      <created>1574060201546</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574060201546</updated>
+    </task>
+    <task id="LOCAL-00005" summary="LQJ">
+      <created>1574060341137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574060341137</updated>
+    </task>
+    <task id="LOCAL-00006" summary="LQJ">
+      <created>1574060385883</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574060385883</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/flume/flume-filter" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManager.ChangeBrowser.svn">
+    <option name="DATE_BEFORE" />
+    <option name="DATE_AFTER" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../flume/flume-filter" />
+      <path value="E:/" />
+      <path value="$PROJECT_DIR$/../dataScyn" />
+      <path value="$PROJECT_DIR$/../../flume" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="LQJ" />
+    <MESSAGE value="新架构修改版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="新架构修改版本" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationBillAnalyzeUpdate.scala</url>
+          <line>925</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationBillAnalyzeUpdate.scala</url>
+          <line>1020</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationBillAnalyzeUpdate.scala</url>
+          <line>1558</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationBillAnalyzeUpdate.scala</url>
+          <line>2180</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationBillAnalyzeUpdate.scala</url>
+          <line>2810</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationBillAnalyzeUpdate.scala</url>
+          <line>3060</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/AppointmentChargeFormInsert.scala</url>
+          <line>27</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/AppointmentChargeFormUpdate.scala</url>
+          <line>27</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationGunInsert.scala</url>
+          <line>21</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationGunUpdate.scala</url>
+          <line>32</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/PersionalMemberInsert.scala</url>
+          <line>21</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/PersionalMemberUpdate.scala</url>
+          <line>44</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/PersionalMemberUpdate.scala</url>
+          <line>16</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationStationUpdate.scala</url>
+          <line>23</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationlVehicleInsert.scala</url>
+          <line>30</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationlVehicleInsert.scala</url>
+          <line>70</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/screen_analyze/service/source_bill/OperationlVehicleInsert.scala</url>
+          <line>21</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

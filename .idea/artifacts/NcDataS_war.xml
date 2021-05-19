@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NcDataS:war">
+    <output-path>$PROJECT_DIR$/../NcDataS/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>NcDataS</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="NcDataS.war">
+      <element id="artifact" artifact-name="NcDataS:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,89 @@
+package screen_analyze.service.source_bill
+import com.alibaba.fastjson.JSONObject
+import screen_analyze.util.StringUtil
+import screen_analyze.util.TimeConUtil
+import java.sql.PreparedStatement
+import java.sql.Connection
+import java.sql.ResultSet
+import org.apache.log4j.Logger
+import screen_analyze.util.DruidUtil
+class AppointmentChargeFormInsert {
+  @transient private lazy val log = Logger.getLogger(this.getClass)
+   var prepareStatement: PreparedStatement = _
+  var connect: Connection = _
+  var resultSet: ResultSet = _
+  def analyzeInsertTable(jsonSql: JSONObject) {
+    log.info("********AppointmentChargeFormInsert处理json:"+jsonSql.toJSONString())
+    val dataArr = jsonSql.getJSONArray("data")
+    var data= new JSONObject
+    var arrSize = dataArr.size()
+   for( m <- 0 to arrSize-1){
+     data = dataArr.getJSONObject(m)
+     //更新station_show_month_total表
+     try{
+       connect = DruidUtil.getConnection.get
+       val v_member_no = data.getString("v_member_no")
+       val stop_appointment_reson = data.getString("stop_appointment_reson")
+       val l_station_id = data.getLongValue("l_station_id")
+       val l_seller_id = data.getLongValue("l_seller_id")
+       val d_add_time = data.getString("d_add_time")
+       var s_member_type:String = null
+       if("QiDong".equals(stop_appointment_reson)){
+       //查询会员类型
+       val query_member_type = "select s_member_type from t_business_base_operation_persional_member where v_telephone=? and b_delete_flag=0"
+      prepareStatement = connect.prepareStatement(query_member_type)
+      prepareStatement.setString(1, v_member_no)
+      resultSet = prepareStatement.executeQuery()
+      if(resultSet.next()){
+        s_member_type = resultSet.getString("s_member_type")
+      }
+       log.info("会员类型*****************"+s_member_type)
+       resultSet.close()
+       prepareStatement.close()
+       if("1".equals(s_member_type)&& !StringUtil.isBlank(d_add_time)){
+         val d_month_time = TimeConUtil.timeConversion(d_add_time, "%Y-%m")
+         log.info("执行更新操作************************** l_station_id："+l_station_id+" l_seller_id:"+l_seller_id+" d_month_time:"+d_month_time)
+       val month_total_sql = new StringBuffer("insert into station_show_month_table(l_station_id,l_seller_id")
+                             .append(",d_month_time,month_personal_booked_num) values(?,?,?,?)")
+                             .append(" ON DUPLICATE KEY UPDATE")
+                             .append(" month_personal_booked_num = month_personal_booked_num+?")
+                prepareStatement = connect.prepareStatement(month_total_sql.toString())
+                prepareStatement.setLong(1, l_station_id)
+                prepareStatement.setInt(2, l_seller_id.toInt)
+                prepareStatement.setString(3, d_month_time)
+                prepareStatement.setLong(4, 1)
+                prepareStatement.setLong(5, 1)
+                prepareStatement.execute()
+                prepareStatement.close()
+       }
+     }
+       connect.close()
+     } catch {
+      case ex: Exception => log.info("*****station_show_month_table**mysql处理异常****")
+    } finally {
+      try {
+        if (connect != null && !connect.isClosed()) {
+          connect.close()
+        }
+      } catch {
+        case ex: Exception => log.info("***station_show_month_table**关闭connect失败****")
+      }
+      try {
+        if (prepareStatement != null && !prepareStatement.isClosed()) {
+          prepareStatement.close()
+        }
+      } catch {
+        case ex: Exception => log.info("***station_show_month_table**关闭prepareStatement失败****")
+      }
+      try {
+        if (resultSet != null && !resultSet.isClosed()) {
+          resultSet.close()
+        }
+      } catch {
+        case ex: Exception => log.info("***station_show_month_table**关闭resultSet失败****")
+      }
+    }
+     
+   }
+  }
+}

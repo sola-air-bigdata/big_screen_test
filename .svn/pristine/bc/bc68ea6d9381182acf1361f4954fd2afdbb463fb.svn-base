@@ -1,0 +1,20 @@
+driverClassName=com.mysql.cj.jdbc.Driver
+url=jdbc:mysql://47.112.216.153:3306/test?useSSL=false&characterEncoding=utf-8&useUnicode=true&serverTimezone=GMT
+username=root
+password=123qqq...A
+filters=stat
+initialSize=30
+maxActive=500
+minIdle=10
+maxWait=60000
+timeBetweenEvictionRunsMillis=60000
+minEvictableIdleTimeMillis=60000
+validationQuery=SELECT 1
+testWhileIdle=true
+testOnBorrow=false
+testOnReturn=false
+logAbandoned=true
+removeAbandoned=true
+removeAbandonedTimeout=1800
+poolPreparedStatements=false
+maxPoolPreparedStatementPerConnectionSize=200
